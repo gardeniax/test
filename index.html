@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello word</h1>
+    <script>
+        // 将当天写完得工程 提交到服务器
+        // 不是直接打包  而是依赖于  git工具
+
+        // 1.安装git 
+        // 2.设置本机git得用户名和邮箱
+        //   git config --global user.name "输入你的用户名"
+        //   git config --global user.email "输入你的邮箱"
+
+        // 3.初始化git   工程和git有关系了
+
+
+        // 4.提交代码  让git来进行管理
+                //  4.1 当前工程是新建的
+                //  git  add  *  
+
+                // 4.2 当前工程时候从服务器拉取的
+                // git  add "文件名"  
+
+        // 5.确认提交
+        // git  commit  -m  '备注' 
+
+
+        // 以上五个步骤都是在本地  和远程服务器没有关系   
+
+
+        /**
+            远程服务器  github
+            1.注册GitHub
+            2.获得本地git仓库的key 
+                ssh-keygen -t rsa 
+        
+        git remote add origin git@github.com:BestBatCh/jiuyun.git
+
+        git push -u origin master
+        */        
+    </script>
+</body>
+</html>
